@@ -335,6 +335,7 @@ body {
     .signin__area {
         padding: var(--space-3xl);
     }
+}
 
 
 @media ( min-width: 1024px ) {
@@ -455,7 +456,6 @@ body {
         padding-left: var(--space-5xl);
         padding-right: var(--space-5xl);
     }
-}
 }
 
 @media ( min-width: 1536px ) {
