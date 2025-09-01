@@ -22,6 +22,7 @@
     </head>
 
     <body>
+        <div id="toast" class="toast">Enviado con éxito ✓</div>
         <div class="signin__wrapper">
             <div class="signin__container">
                 <div class="signin__area">
@@ -34,12 +35,12 @@
                         <!--Input containers to control both of them-->
                         <div class="signin__form-input-containers">
                             <label class="signin__form-label label-s" for="">Email</label>
-                            <input class="signin__form-input body-md" type="text" id="email" name="" placeholder="Enter your email" required />
+                            <input class="signin__form-input body-md" type="email" id="email" name="" placeholder="Enter your email" required />
                         </div>
 
                         <div class="signin__form-input-containers">
                             <label class="signin__form-label label-s" for="">Password</label>
-                            <input class="signin__form-input body-md" type="password" id="password" name="" placeholder="Enter your password" required />
+                            <input class="signin__form-input body-md" type="password" id="password" name="" placeholder="Enter your password" minlength="8" required />
                         </div>
 
                         <div class="signin__form-helps">
@@ -68,6 +69,7 @@
 
                 <!--Sign In Testimonial Area (Desktop only) -->
                 <div class="testimonial__area">
+                    <img class="testimonial__bg" src="/assets/images/front-pose.jpg" alt="" />
                     <div class="testimonial__card">
                         <q class="testimonial__card-quote title-l" cite="Gloria Johnson">We've been using all the latest knowledge and applications to improve our skills every day</q>
 
