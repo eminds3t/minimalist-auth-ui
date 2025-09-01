@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <title>A Minimal Form</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="A description..." />
+        <meta name="author" content="eminds3t" />
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        
+        <!--Stylesheet-->
+        <link rel="stylesheet" href="/styles/style.css" />
+
+        <!--Scripts-->
+    </head>
+
+    <body>
+        <div class="signin__wrapper">
+            <div class="signin__container">
+                <div class="signin__area">
+                    <header class="signin__header">
+                        <h1 class="signin__header-title">Welcome back</h1>
+                        <p class="signin__header-paragraph body-s">Welcome back! Please enter your details.</p>
+                    </header>
+
+                    <form class="signin__form">
+                        <!--Input containers to control both of them-->
+                        <div class="signin__form-input-containers">
+                            <label class="signin__form-label label-s" for="">Email</label>
+                            <input class="signin__form-input body-md" type="text" id="" name="" placeholder="Enter your email" required />
+                        </div>
+
+                        <div class="signin__form-input-containers">
+                            <label class="signin__form-label label-s" for="">Password</label>
+                            <input class="signin__form-input body-md" type="password" id="" name="" placeholder="Enter your password" required />
+                        </div>
+
+                        <div class="signin__form-helps">
+                            <div class="signin__form-checkbox-container">
+                                <input class="signin__checkbox" type="checkbox" id="remember" name="remember" />
+                                <label class="signin__checkbox-label label-s" class="" for="remember">Remember me</label>
+                            </div>
+
+                            <a class="signin__form-link label-s" href="" title="Go to reset your password.">Forgot password</a>
+                        </div>
+
+                        <div class="signin__buttons-container">
+                            <button class="signin__primary-button label-md" type="submit">Sign in</button>
+                            <a class="signin__secondary-link label-md" href="" title="Go to 'sign in with Google'">
+                                <img class="signin__secondary-link-logo" src="/assets/icons/google-logo.png" alt="Google's logo." />
+                                Sign in with Google
+                            </a>
+                        </div>
+                    </form>
+
+                    <div class="signin__footer">
+                            <p class="signin__footer-paragraph body-s">Don't have an account?</p>
+                            <a class="signin__footer-link label-s">Sign up for free</a>
+                    </div>
+                </div>
+
+                <!--Sign In Testimonial Area (Desktop only) -->
+                <div class="testimonial__area">
+                    <div class="testimonial__card">
+                        <q class="testimonial__card-quote title-l" cite="Gloria Johnson">We've been using all the latest knowledge and applications to improve our skills every day</q>
+
+                        <div class="testimonial__card-author">
+                            <cite class="testimonial__card-author-name title-l">Gloria Johnson</cite>
+                            <div class="testimonial__card-author-rate">
+                                <img class="testimonial__card-icon" src="/assets/icons/star-icon.png" alt="Stars logo." />
+                                <img class="testimonial__card-icon" src="/assets/icons/star-icon.png" alt="Stars logo." />
+                                <img class="testimonial__card-icon" src="/assets/icons/star-icon.png" alt="Stars logo." />
+                                <img class="testimonial__card-icon" src="/assets/icons/star-icon.png" alt="Stars logo." />
+                                <img class="testimonial__card-icon" src="/assets/icons/star-icon.png" alt="Stars logo." />
+                            </div>
+                        </div>
+
+                        <div class="testimonial__card-footer">
+                            <div class="testimonial__card-footer-author-descriptions">
+                                <p class="testimonial__card-footer-author-position body-md">Founder CEO</p>
+                                <p class="testimonial__card-footer-author-agency body-s">Web Design Agency</p>
+                             </div>
+
+                            <div class="testimonial__card-footer-controls">
+                                <div class="testimonial__card-footer-control">
+                                    <img class="testimonial__card-footer-control-icon" src="/assets/icons/arrow-left-control.png" alt="Arrow icon." />
+                                </div>
+                                <div class="testimonial__card-footer-control">
+                                    <img class="testimonial__card-footer-control-icon" src="/assets/icons/arrow-right-control.png" alt="Arrow icon." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
